@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(229, 57%, 11%);
+  margin: 10rem;
+  background-image: url(./images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.maincontainer {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.firstcontainer {
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 1rem 5rem 1rem 1rem;
+  padding: 4rem 7rem 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem 0 0;
+}
+.firstsvgdivs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+.uploaddiv {
+  background-color: hsl(229, 57%, 11%);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+.folderdiv {
+  background-color: hsl(229, 57%, 11%);
+  padding: 0.7rem;
+  margin-right: 0.7rem;
+  border-radius: 0.5rem;
+}
+.filediv {
+  background-color: hsl(229, 57%, 11%);
+  padding: 0.7rem;
+  margin-right: 0.7rem;
+  border-radius: 0.5rem;
+}
+.secondcontainer {
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 1rem;
+  padding: 1.7rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+p {
+  font-family: Raleway;
+  color: white;
+  font-weight: 400;
+}
+.loading-text {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+.startertext {
+  font-family: "Raleway", sans-serif;
+  margin: 0 28.8rem 0 0;
+}
+
+.first-sentence {
+  font-family: "Raleway", sans-serif;
+  margin: 1.7rem 0 3rem 0;
+}
+.finalsvg {
+  position: absolute;
+  bottom: 20rem;
+  left: 57rem;
+}
+
+#range-slider {
+    cursor: pointer;
+
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+footer > a {
+  color: green;
+}
